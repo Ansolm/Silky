@@ -2,16 +2,17 @@ apply from: './../config.gradle'
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk buildConfig.compileSdkVersion
+    namespace 'com.ansolm.fetcher'
+    compileSdk 37
     defaultConfig {
-        minSdk buildConfig.minSdkVersion
-        targetSdk buildConfig.targetSdkVersion
+        minSdk 21
+        targetSdk 37
         versionCode buildConfig.versionCode
         versionName buildConfig.versionName
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 

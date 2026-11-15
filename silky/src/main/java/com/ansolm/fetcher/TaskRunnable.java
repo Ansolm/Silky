@@ -1,12 +1,12 @@
-package com.iwdael.fetcher;
+package com.ansolm.fetcher;
 
 import java.util.concurrent.Future;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author : iwdael
- * @mail : iwdael@outlook.com
- * @project : https://github.com/iwdael/Fetcher
+ * @author : ansolm
+ * @mail : ansolm@outlook.com
+ * @project : https://github.com/ansolm/Fetcher
  */
 public class TaskRunnable implements Runnable {
     private final Task task;

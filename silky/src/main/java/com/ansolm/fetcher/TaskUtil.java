@@ -1,12 +1,12 @@
-package com.iwdael.fetcher;
+package com.ansolm.fetcher;
 
 import android.os.Handler;
 import android.os.Looper;
 
 /**
- * @author : iwdael
- * @mail : iwdael@outlook.com
- * @project : https://github.com/iwdael/Silky
+ * @author : ansolm
+ * @mail : ansolm@outlook.com
+ * @project : https://github.com/ansolm/Silky
  */
 public class TaskUtil {
     private static volatile Handler handler = null;

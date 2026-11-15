@@ -1,9 +1,9 @@
-package com.iwdael.fetcher;
+package com.ansolm.fetcher;
 
 /**
- * @author : iwdael
- * @mail : iwdael@outlook.com
- * @project : https://github.com/iwdael/Fetcher
+ * @author : ansolm
+ * @mail : ansolm@outlook.com
+ * @project : https://github.com/ansolm/Fetcher
  */
 public interface Transformer<S, T> {
     T transform(S source);

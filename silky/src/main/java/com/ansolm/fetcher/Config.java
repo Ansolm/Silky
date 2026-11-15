@@ -1,6 +1,6 @@
-package com.iwdael.fetcher;
+package com.ansolm.fetcher;
 
-import static com.iwdael.fetcher.Silky.newConfigBuilder;
+import static com.ansolm.fetcher.Silky.newConfigBuilder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,9 +10,9 @@ import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author : iwdael
- * @mail : iwdael@outlook.com
- * @project : https://github.com/iwdael/Fetcher
+ * @author : ansolm
+ * @mail : ansolm@outlook.com
+ * @project : https://github.com/ansolm/Fetcher
  */
 public class Config {
     public final int corePoolSize;

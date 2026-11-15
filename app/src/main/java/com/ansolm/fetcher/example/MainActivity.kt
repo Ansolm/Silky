@@ -1,9 +1,9 @@
-package com.iwdael.fetcher.example
+package com.ansolm.fetcher.example
 
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.iwdael.fetcher.*
+import com.ansolm.fetcher.*
 
 class MainActivity : AppCompatActivity() {
     var textView: TextView? = null
