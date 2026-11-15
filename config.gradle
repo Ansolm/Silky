@@ -22,12 +22,12 @@ ext {
             'bindingCommon'            : 'androidx.databinding:databinding-common:7.1.2',
             'roomCompiler'             : 'androidx.room:room-compiler:2.4.2',
             'javaparser'               : 'com.github.javaparser:javaparser-core:3.7.0',
-            'annotationprocessorparser': 'com.ansolm:annotationprocessorparser:0.0.11',
+            'annotationprocessorparser': 'com.github.ansolm:AnnotationProcessorParser:0.0.13',
             'coroutinesAndroid'        : 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0',
             'coroutinesCore'           : 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.8',
             'gson'                     : 'com.google.code.gson:gson:2.8.6',
-            'dbroomCore'               : 'com.ansolm.dbroom:core:0.0.4',
-            'dbroomCompiler'           : 'com.ansolm.dbroom:compiler:0.0.4',
-            'taskcenter'               : 'com.ansolm:taskcenter:0.0.1'
+            'dbroomCore'               : 'com.github.ansolm.DbRoom:core:0.0.34',
+            'dbroomCompiler'           : 'com.github.ansolm.DbRoom:compiler:0.0.34',
+            'taskcenter'               : 'com.github.ansolm:TaskCenter:0.0.3'
     ]
 }
